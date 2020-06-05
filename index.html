@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>rgb to hex</title>
+
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="d-flex flex-column">
+    <div class="container mt-5" align="center" id="totalSlider">
+      <div class="container">
+
+        <div class="row">
+          <div>
+            <div class="form-group">
+              <span class=redStyle>R</span>
+              <input type="range" class="custom-range" min="0" max="255" step="1" value="125" id="redRange">
+              <span class=redStyle2>125</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="greenColor">
+            <div class="form-group">
+              <span class=greenStyle>G</span>
+              <input type="range" class="custom-range" min="0" max="255" step="1" value="125" id="greenRange">
+              <span class=greenStyle2>125</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="blueColor">
+            <div class="form-group">
+              <span class=blueStyle>B</span>
+              <input type="range" class="custom-range" min="0" max="255" step="1" value="125" id="blueRange">
+              <span class=blueStyle2>125</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="colorBg" id="hexColor">
+            #D8E6E7
+            <!--  color code    -->
+
+          </div>
+        </div>
+      </div>
+
+
+      <script src="main.js"></script>
+</body>
+
+</html>

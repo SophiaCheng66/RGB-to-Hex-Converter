@@ -1,0 +1,62 @@
+#totalSlider{
+  margin-top: 30px;
+}
+
+
+.redStyle{
+  border: 1px solid transparent ;
+  background-color : red;
+  width :20px;
+}
+
+.redStyle2{
+   border: 1px solid transparent;
+   background-color : red;
+   width :50px;
+}
+
+.greenColor{
+  margin-top: 20px;
+}
+
+.greenStyle{
+  border: 1px solid transparent ;
+  background-color : green;
+  min-width :20px;
+}
+
+.greenStyle2{
+   border: 1px solid transparent;
+   background-color : green;
+   min-width :50px;
+}
+
+.blueColor{
+   margin-top: 20px;
+}
+
+.blueStyle{
+  border: 1px solid transparent ;
+  background-color : blue;
+  min-width :20px;
+}
+
+.blueStyle2{
+   border: 1px solid transparent;
+   background-color : blue;
+   min-width :50px;
+}
+
+.colorBg {
+  background: rgba(255, 255, 255, 0.3);
+  width: 150px;
+  text-align: center;
+  margin:0px auto;
+}
+
+body {
+  background-color: #D8E6E7;
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding: 0px 0px;
+}
